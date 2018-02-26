@@ -35,3 +35,12 @@ The arm should have the appropriate kinematics to be able to move the arm and ro
 - At least two functional interchangeable heads with different functions
 - Will need to complete a task for every head (e.g. picking something up or screwing a bolt)
 - Must be able to navigate around some obstacles
+
+***Sources:***
+
+- Arm Image and Information: [https://mars.nasa.gov/mer/mission/spacecraft_rover_arm.html](https://mars.nasa.gov/mer/mission/spacecraft_rover_arm.html)
+- Curiosity Current State: [https://mars.nasa.gov/msl/mission/mars-rover-curiosity-mission-updates/](https://mars.nasa.gov/msl/mission/mars-rover-curiosity-mission-updates/)
+- Rover Image: [https://photojournal.jpl.nasa.gov/catalog/PIA04413](https://photojournal.jpl.nasa.gov/catalog/PIA04413)
+- Spirit and Opportunity Current State: [https://mars.nasa.gov/mer/mission/status.html](https://mars.nasa.gov/mer/mission/status.html)
+- Launch Dates: [https://www.nasa.gov/mission_pages/mars/missions/index.html](https://www.nasa.gov/mission_pages/mars/missions/index.html)
+- Sojourner Current State: [https://mars.jpl.nasa.gov/MPF/newspio/index.html](https://mars.jpl.nasa.gov/MPF/newspio/index.html)
