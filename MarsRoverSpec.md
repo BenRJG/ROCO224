@@ -27,3 +27,11 @@ The preliminary goal here is to create a mobile robot arm in the form of a rover
 It should simulate the time delays on sending the  signal and retrieving the data and camera information as would be typical in real operation.
 
 The arm should have the appropriate kinematics to be able to move the arm and rotate it while keeping the head in a fixed position, so that samples are not lost.
+
+**Constraints:**
+
+- The arm must have at least 5 DOF preferably 6.
+- Must contain at least 1 camera, preferably 2 or more (for movement and arm)
+- At least two functional interchangeable heads with different functions
+- Will need to complete a task for every head (e.g. picking something up or screwing a bolt)
+- Must be able to navigate around some obstacles
