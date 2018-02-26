@@ -20,3 +20,10 @@ Typically the arms on three degree's of freedom, plus the "hand" or other tool.
  
 [Rover]: https://photojournal.jpl.nasa.gov/jpegMod/PIA04413_modest.jpg "Mars Exploration Rover"
 [Arm]: https://mars.nasa.gov/mer/mission/images/robotic_arm_250.jpg "Mars Exploration Robotic Arm"
+
+**Goals:**
+The preliminary goal here is to create a mobile robot arm in the form of a rover. It should have an interchangeable head in order to perform a variety of tasks, and be able to store the tools on it's own body. As well as having at least 5 DOF to be able to move efficiently to an object.
+
+It should simulate the time delays on sending the  signal and retrieving the data and camera information as would be typical in real operation.
+
+The arm should have the appropriate kinematics to be able to move the arm and rotate it while keeping the head in a fixed position, so that samples are not lost.
