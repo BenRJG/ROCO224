@@ -61,15 +61,15 @@ Rover_Arm = SerialLink(L, 'name', 'Rover Arm')
 
 M = [1 1 1 1 0 0];
 
-m1 = [0 -0.1 0]
-m2 = [0 -0.1 -0.1]
+m1 = [0.2 0 0]
+m2 = [0.2 0 0.1]
 
 Rover_Arm.plot([0 0 0])
 
-%q1 = move(p2,m1,0,0);
-%pause(5);
-%q2 = move(q1,m2,0,0);
-%pause(10);
+q1 = move(p2,m1,0,0);
+pause(5);
+q2 = move(q1,m2,0,0);
+pause(5);
 
-%shutdown();
+Shutdown();
 
