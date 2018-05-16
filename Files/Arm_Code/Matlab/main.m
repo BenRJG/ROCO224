@@ -71,5 +71,5 @@ pause(5);
 q2 = move(q1,m2,0,0);
 pause(5);
 
-Shutdown();
+shutdown();
 
