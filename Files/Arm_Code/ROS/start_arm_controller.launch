@@ -1,0 +1,51 @@
+<!-- -*- mode: XML -*- -->
+
+<launch>
+    <rosparam file="$(find rover_arm)/Arm_Joints/wheel_wheel1.yaml" command="load"/>
+
+    <rosparam file="$(find rover_arm)/Arm_Joints/joint_base.yaml" command="load"/>
+
+    <rosparam file="$(find rover_arm)/Arm_Joints/joint_arm-tilt.yaml" command="load"/>
+
+    <rosparam file="$(find rover_arm)/Arm_Joints/joint_arm-lift.yaml" command="load"/>
+
+    <rosparam file="$(find rover_arm)/Arm_Joints/joint_tool-tilt.yaml" command="load"/>
+
+    <rosparam file="$(find rover_arm)/Arm_Joints/wheel_tool.yaml" command="load"/>
+
+    <node name="wheel1_controller_spawner" pkg="dynamixel_controllers" type="controller_spawner.py"
+        args="--manager=dxl_manager
+              --port pan_tilt_port
+              wheel1_controller"
+        output="screen"/>
+
+    <node name="base_controller_spawner" pkg="dynamixel_controllers" type="controller_spawner.py"
+        args="--manager=dxl_manager
+              --port pan_tilt_port
+              base_controller"
+        output="screen"/>
+
+    <node name="arm_tilt_controller_spawner" pkg="dynamixel_controllers" type="controller_spawner.py"
+        args="--manager=dxl_manager
+              --port pan_tilt_port
+              arm_tilt_controller"
+        output="screen"/>
+
+    <node name="arm_lift_controller_spawner" pkg="dynamixel_controllers" type="controller_spawner.py"
+        args="--manager=dxl_manager
+              --port pan_tilt_port
+              arm_lift_controller"
+        output="screen"/>
+
+    <node name="tool_tilt_controller_spawner" pkg="dynamixel_controllers" type="controller_spawner.py"
+        args="--manager=dxl_manager
+              --port pan_tilt_port
+              tool_tilt_controller"
+        output="screen"/>
+
+    <node name="tool_controller_spawner" pkg="dynamixel_controllers" type="controller_spawner.py"
+        args="--manager=dxl_manager
+              --port pan_tilt_port
+              tool_controller"
+        output="screen"/>
+</launch>
